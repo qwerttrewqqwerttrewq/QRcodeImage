@@ -115,8 +115,6 @@ async function handleGetPreset(request, env) {
 }
 ```
 
-（省略具体实现代码，如 `handleUpload`、`handleDownload`、`handleGetPreset`、`handleSetPreset` 等）
-
 3. **绑定 R2 存储桶 `R2_BUCKET` 及 KV 命名空间 `PRESETS_KV`**
 4. **设置 Worker 路由**
    - `yourdomain.com/setpreset`
@@ -126,7 +124,7 @@ async function handleGetPreset(request, env) {
    
    （这里弄复杂了，之前是为了下载链接能短一点，不然一个 `yourdomain.com/api/*` 就行了，有需求自行更改 Worker 代码里的路径判断）
 
-> 这里后端需求较少，所以随便写了接口，没有使用 `wrangler` 构建
+> 这里后端需求较少，所以随便写了接口，没有使用wrangler构建
 
 ### 前端
 1. **克隆本仓库**
