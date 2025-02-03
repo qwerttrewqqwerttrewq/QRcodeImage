@@ -129,7 +129,7 @@ async function handleGetPreset(request, env) {
 ### 前端
 1. **克隆本仓库**
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/qwerttrewqqwerttrewq/QRcodeImage.git
    ```
 2. **创建 Cloudflare Pages**
    - 绑定 `main` 分支
