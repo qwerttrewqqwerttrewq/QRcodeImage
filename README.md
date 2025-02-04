@@ -131,6 +131,7 @@ async function handleGetPreset(request, env) {
    ```sh
    git clone https://github.com/qwerttrewqqwerttrewq/QRcodeImage.git
    ```
+   修改/src/utils/util.js中的baseUrl确保与你的域名一致
 2. **创建 Cloudflare Pages**
    - 绑定 `main` 分支
    - Cloudflare 会自动进行 CI/CD 部署
